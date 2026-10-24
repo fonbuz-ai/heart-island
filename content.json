@@ -8,12 +8,12 @@
       "no": "01",
       "color": "#DB6A41",
       "products": [
-        { "name": "HemoHIM 煥力飲G 4件組", "tag": "草本", "zone": "", "sku": "W18775", "price": 11280, "pv": 200000, "stock": "in", "desc": "當歸、川芎、白芍、黃耆草本萃取，日常營養補充。" },
-        { "name": "rTG 魚油膠囊", "tag": "魚油", "zone": "", "sku": "W94003", "price": 1688, "pv": 22000, "stock": "in", "desc": "日本原裝 rTG 劑型，EPA 與 DHA 含量標示於包裝，小顆粒好吞。" },
-        { "name": "海藻鈣片", "tag": "鈣質", "zone": "", "sku": "W00109", "price": 1080, "pv": 19500, "stock": "in", "desc": "愛爾蘭紅藻鈣，鈣鎂 2:1 加維生素 D3，純素可食，實際含量依包裝標示。" },
-        { "name": "維生素C粉", "tag": "維生素C", "zone": "", "sku": "W00121", "price": 680, "pv": 8400, "stock": "in", "desc": "芒果風味速溶條包，每包 120mg 維生素 C，免配水。" },
-        { "name": "螺旋藻膠囊 100%", "tag": "營養補給", "zone": "", "sku": "W00178", "price": 780, "pv": 8000, "stock": "out", "desc": "蛋白質逾 60%、18 種胺基酸，外食族的綠色補給。" },
-        { "name": "美妍膠原飲", "tag": "膠原", "zone": "", "sku": "W90944", "price": 470, "pv": 6800, "stock": "in", "desc": "500Da 法國魚膠原 5,000mg，加金針花萃取，日常飲用。" }
+        { "name": "HemoHIM 煥力飲G 4件組", "tag": "草本", "zone": "", "sku": "W18775", "price": 11280, "pv": 200000, "stock": "in", "desc": "當歸、川芎、白芍、黃耆草本萃取，日常營養補充。", "detail": {"intro":"","features":[],"usage":"","notice":"","images":["https://image.atomy.com/editor/702/2610220166702.jpg","https://image.atomy.com/editor/089/2503110043089.jpg"],"officialUrl":"https://www.atomy.com/tw/Home/Product/ProductView?GdsCode=W18775"} },
+        { "name": "rTG 魚油膠囊", "tag": "魚油", "zone": "", "sku": "W94003", "price": 1688, "pv": 22000, "stock": "in", "desc": "日本原裝 rTG 劑型，EPA 與 DHA 含量標示於包裝，小顆粒好吞。", "detail": {"intro":"","features":[],"usage":"","notice":"","images":["https://image.atomy.com/editor/028/2509230139028.jpg"],"officialUrl":"https://www.atomy.com/tw/Home/Product/ProductView?GdsCode=W94003"} },
+        { "name": "海藻鈣片", "tag": "鈣質", "zone": "", "sku": "W00109", "price": 1080, "pv": 19500, "stock": "in", "desc": "愛爾蘭紅藻鈣，鈣鎂 2:1 加維生素 D3，純素可食，實際含量依包裝標示。", "detail": {"intro":"","features":[],"usage":"","notice":"","images":["https://image.atomy.com/editor/406/2509300139406.jpg"],"officialUrl":"https://www.atomy.com/tw/Home/Product/ProductView?GdsCode=W00109"} },
+        { "name": "維生素C粉", "tag": "維生素C", "zone": "", "sku": "W00121", "price": 680, "pv": 8400, "stock": "in", "desc": "芒果風味速溶條包，每包 120mg 維生素 C，免配水。", "detail": {"intro":"","features":[],"usage":"","notice":"","images":["https://image.atomy.com/editor/020/2603110151020.jpg","https://image.atomy.com/editor/128/2602250150128.jpg"],"officialUrl":"https://www.atomy.com/tw/Home/Product/ProductView?GdsCode=W00121"} },
+        { "name": "螺旋藻膠囊 100%", "tag": "營養補給", "zone": "", "sku": "W00178", "price": 780, "pv": 8000, "stock": "out", "desc": "蛋白質逾 60%、18 種胺基酸，外食族的綠色補給。", "detail": {"intro":"","features":[],"usage":"","notice":"","images":["https://image.atomy.com/editor/761/2606050156761.jpg"],"officialUrl":"https://www.atomy.com/tw/Home/Product/ProductView?GdsCode=W00178"} },
+        { "name": "美妍膠原飲", "tag": "膠原", "zone": "", "sku": "W90944", "price": 470, "pv": 6800, "stock": "in", "desc": "500Da 法國魚膠原 5,000mg，加金針花萃取，日常飲用。", "detail": {"intro":"","features":[],"usage":"","notice":"","images":["https://image.atomy.com/editor/324/2603300152324.jpg","https://image.atomy.com/editor/325/2603300152325.jpg"],"officialUrl":"https://www.atomy.com/tw/Home/Product/ProductView?GdsCode=W90944"} }
       ]
     },
     {
@@ -22,12 +22,12 @@
       "no": "02",
       "color": "#C9738F",
       "products": [
-        { "name": "凝萃煥膚安瓶", "tag": "抗老", "zone": "", "sku": "W00227", "price": 1365, "pv": 26000, "stock": "in", "desc": "30% 高濃度全效 code 精華，添加胜肽與植物萃取，日常保養使用。" },
-        { "name": "凝萃水漾保濕棒", "tag": "保濕", "zone": "", "sku": "W01523", "price": 420, "pv": 7400, "stock": "in", "desc": "固態保濕棒，含保濕與舒緩成分，隨身補水。" },
-        { "name": "凝萃24K黃金晚安面膜", "tag": "夜間修護", "zone": "", "sku": "W01513", "price": 990, "pv": 17800, "stock": "in", "desc": "24K 金與胜肽配方，免洗睡眠面膜，夜間保濕。" },
-        { "name": "雪白凝萃淡斑精華筆", "tag": "亮白", "zone": "", "sku": "W01526", "price": 698, "pv": 12000, "stock": "out", "desc": "含煙酰胺亮白成分，日夜分時保養。" },
-        { "name": "深層卸妝油", "tag": "清潔", "zone": "", "sku": "W00482", "price": 520, "pv": 6800, "stock": "in", "desc": "七種紅麴發酵植物油，溶解彩妝與皮脂，溫和卸淨。" },
-        { "name": "凝萃煥膚防曬乳", "tag": "防曬", "zone": "", "sku": "W00276", "price": 355, "pv": 4560, "stock": "in", "desc": "質地清爽的防曬乳，適合日常外出使用。" }
+        { "name": "凝萃煥膚安瓶", "tag": "抗老", "zone": "", "sku": "W00227", "price": 1365, "pv": 26000, "stock": "in", "desc": "30% 高濃度全效 code 精華，添加胜肽與植物萃取，日常保養使用。", "detail": {"intro":"","features":[],"usage":"","notice":"","images":["https://image.atomy.com/editor/355/2503280106355.jpg"],"officialUrl":"https://www.atomy.com/tw/Home/Product/ProductView?GdsCode=W00227"} },
+        { "name": "凝萃水漾保濕棒", "tag": "保濕", "zone": "", "sku": "W01523", "price": 420, "pv": 7400, "stock": "in", "desc": "固態保濕棒，含保濕與舒緩成分，隨身補水。", "detail": {"intro":"","features":[],"usage":"","notice":"","images":["https://image.atomy.com/editor/694/2610120165694.jpg","https://image.atomy.com/editor/247/2610060165247.jpg"],"officialUrl":"https://www.atomy.com/tw/Home/Product/ProductView?GdsCode=W01523"} },
+        { "name": "凝萃24K黃金晚安面膜", "tag": "夜間修護", "zone": "", "sku": "W01513", "price": 990, "pv": 17800, "stock": "in", "desc": "24K 金與胜肽配方，免洗睡眠面膜，夜間保濕。", "detail": {"intro":"","features":[],"usage":"","notice":"","images":[],"officialUrl":"https://www.atomy.com/tw/Home/Product/ProductView?GdsCode=W01513"} },
+        { "name": "雪白凝萃淡斑精華筆", "tag": "亮白", "zone": "", "sku": "W01526", "price": 698, "pv": 12000, "stock": "out", "desc": "含煙酰胺亮白成分，日夜分時保養。", "detail": {"intro":"","features":[],"usage":"","notice":"","images":[],"officialUrl":"https://www.atomy.com/tw/Home/Product/ProductView?GdsCode=W01526"} },
+        { "name": "深層卸妝油", "tag": "清潔", "zone": "", "sku": "W00482", "price": 520, "pv": 6800, "stock": "in", "desc": "七種紅麴發酵植物油，溶解彩妝與皮脂，溫和卸淨。", "detail": {"intro":"","features":[],"usage":"","notice":"","images":["https://image.atomy.com/editor/783/2411280022783.jpg"],"officialUrl":"https://www.atomy.com/tw/Home/Product/ProductView?GdsCode=W00482"} },
+        { "name": "凝萃煥膚防曬乳", "tag": "防曬", "zone": "", "sku": "W00276", "price": 355, "pv": 4560, "stock": "in", "desc": "質地清爽的防曬乳，適合日常外出使用。", "detail": {"intro":"","features":[],"usage":"","notice":"","images":["https://image.atomy.com/editor/176/2606300158176.jpg"],"officialUrl":"https://www.atomy.com/tw/Home/Product/ProductView?GdsCode=W00276"} }
       ]
     },
     {
@@ -36,12 +36,12 @@
       "no": "03",
       "color": "#6E9C8F",
       "products": [
-        { "name": "蜂膠牙膏 4 條組", "tag": "口腔", "zone": "", "sku": "W00521", "price": 150, "pv": 3000, "stock": "in", "desc": "水溶性蜂膠加綠茶萃取，SGS 檢測，四條裝全家用。" },
-        { "name": "環保衛生紙", "tag": "紙品", "zone": "", "sku": "W18828", "price": 699, "pv": 500, "stock": "in", "desc": "100% 再生紙漿、FSC 認證、400 度殺菌、110 抽。" },
-        { "name": "抽取式廚房紙巾 16 袋", "tag": "廚房", "zone": "", "sku": "W18622", "price": 1520, "pv": 5600, "stock": "in", "desc": "原生紙漿雙層加厚，HACCP 認證，吸油吸水好抽。" },
-        { "name": "銀離子柔濕巾 80 抽", "tag": "清潔", "zone": "", "sku": "W90881", "price": 600, "pv": 3500, "stock": "in", "desc": "EDI 超純水加銀離子，無酒精，溫和清潔。" },
-        { "name": "洗手乳", "tag": "清潔", "zone": "", "sku": "W00541", "price": 145, "pv": 1000, "stock": "in", "desc": "天然來源成分加柑橘萃取，弱酸性配方。" },
-        { "name": "空氣清淨機", "tag": "家電", "zone": "", "sku": "W18910", "price": 9600, "pv": 168000, "stock": "in", "desc": "搭配專用複合濾網，過濾室內懸浮微粒與異味。" }
+        { "name": "蜂膠牙膏 4 條組", "tag": "口腔", "zone": "", "sku": "W00521", "price": 150, "pv": 3000, "stock": "in", "desc": "水溶性蜂膠加綠茶萃取，SGS 檢測，四條裝全家用。", "detail": {"intro":"","features":[],"usage":"","notice":"","images":["https://image.atomy.com/editor/027/2606100157027.jpg","https://image.atomy.com/editor/505/2505290126505.jpg"],"officialUrl":"https://www.atomy.com/tw/Home/Product/ProductView?GdsCode=W00521"} },
+        { "name": "環保衛生紙", "tag": "紙品", "zone": "", "sku": "W18828", "price": 699, "pv": 500, "stock": "in", "desc": "100% 再生紙漿、FSC 認證、400 度殺菌、110 抽。", "detail": {"intro":"","features":[],"usage":"","notice":"","images":[],"officialUrl":"https://www.atomy.com/tw/Home/Product/ProductView?GdsCode=W18828"} },
+        { "name": "抽取式廚房紙巾 16 袋", "tag": "廚房", "zone": "", "sku": "W18622", "price": 1520, "pv": 5600, "stock": "in", "desc": "原生紙漿雙層加厚，HACCP 認證，吸油吸水好抽。", "detail": {"intro":"","features":[],"usage":"","notice":"","images":[],"officialUrl":"https://www.atomy.com/tw/Home/Product/ProductView?GdsCode=W18622"} },
+        { "name": "銀離子柔濕巾 80 抽", "tag": "清潔", "zone": "", "sku": "W90881", "price": 600, "pv": 3500, "stock": "in", "desc": "EDI 超純水加銀離子，無酒精，溫和清潔。", "detail": {"intro":"","features":[],"usage":"","notice":"","images":["https://image.atomy.com/editor/238/2604130153238.jpg"],"officialUrl":"https://www.atomy.com/tw/Home/Product/ProductView?GdsCode=W90881"} },
+        { "name": "洗手乳", "tag": "清潔", "zone": "", "sku": "W00541", "price": 145, "pv": 1000, "stock": "in", "desc": "天然來源成分加柑橘萃取，弱酸性配方。", "detail": {"intro":"","features":[],"usage":"","notice":"","images":["https://image.atomy.com/editor/766/2411280022766.jpg"],"officialUrl":"https://www.atomy.com/tw/Home/Product/ProductView?GdsCode=W00541"} },
+        { "name": "空氣清淨機", "tag": "家電", "zone": "", "sku": "W18910", "price": 9600, "pv": 168000, "stock": "in", "desc": "搭配專用複合濾網，過濾室內懸浮微粒與異味。", "detail": {"intro":"","features":[],"usage":"","notice":"","images":["https://image.atomy.com/editor/272/2608250161272.png","https://image.atomy.com/editor/271/2608250161271.png","https://image.atomy.com/editor/316/2601060146316.jpg","https://image.atomy.com/editor/303/2601060146303.jpg","https://image.atomy.com/editor/317/2601060146317.jpg","https://image.atomy.com/editor/325/2601060146325.jpg","https://image.atomy.com/editor/326/2601060146326.jpg","https://image.atomy.com/editor/327/2601060146327.jpg","https://image.atomy.com/editor/318/2601060146318.jpg","https://image.atomy.com/editor/328/2601060146328.jpg","https://image.atomy.com/editor/319/2601060146319.jpg","https://image.atomy.com/editor/827/2601260147827.jpg","https://image.atomy.com/editor/321/2601060146321.jpg","https://image.atomy.com/editor/788/2601240147788.jpg"],"officialUrl":"https://www.atomy.com/tw/Home/Product/ProductView?GdsCode=W18910"} }
       ]
     },
     {
@@ -50,12 +50,12 @@
       "no": "04",
       "color": "#D9A93F",
       "products": [
-        { "name": "阿拉比卡三合一即溶咖啡 50 入", "tag": "咖啡", "zone": "", "sku": "W00973", "price": 280, "pv": 1300, "stock": "in", "desc": "巴西 100% 阿拉比卡豆，奶香滑順，甜度可調。" },
-        { "name": "阿拉比卡即溶黑咖啡", "tag": "咖啡", "zone": "", "sku": "W00975", "price": 460, "pv": 3900, "stock": "in", "desc": "單一阿拉比卡豆萃取，無糖無奶，純黑咖啡香。" },
-        { "name": "芝麻海苔酥", "tag": "零食", "zone": "", "sku": "W90903", "price": 99, "pv": 500, "stock": "in", "desc": "韓國舒川海苔加胡麻油，低溫海鹽調味，全素可食。" },
-        { "name": "麥盧卡蜂蜜 MGO830+ 2件組", "tag": "蜂蜜", "zone": "", "sku": "W90920", "price": 4298, "pv": 48000, "stock": "in", "desc": "澳洲原裝、AMHA 認證，MGO830+，沖泡或直接食用。" },
-        { "name": "艾初米有機白米", "tag": "主食", "zone": "", "sku": "W90955", "price": 188, "pv": 550, "stock": "in", "desc": "台東關山栽種，當季碾製，粒粒飽滿。" },
-        { "name": "天然椰糖 3 包組", "tag": "調味", "zone": "", "sku": "W18620", "price": 450, "pv": 2600, "stock": "in", "desc": "椰花蜜低溫熬製，沖泡烘焙的天然甜味來源。" }
+        { "name": "阿拉比卡三合一即溶咖啡 50 入", "tag": "咖啡", "zone": "", "sku": "W00973", "price": 280, "pv": 1300, "stock": "in", "desc": "巴西 100% 阿拉比卡豆，奶香滑順，甜度可調。", "detail": {"intro":"","features":[],"usage":"","notice":"","images":[],"officialUrl":"https://www.atomy.com/tw/Home/Product/ProductView?GdsCode=W00973"} },
+        { "name": "阿拉比卡即溶黑咖啡", "tag": "咖啡", "zone": "", "sku": "W00975", "price": 460, "pv": 3900, "stock": "in", "desc": "單一阿拉比卡豆萃取，無糖無奶，純黑咖啡香。", "detail": {"intro":"","features":[],"usage":"","notice":"","images":["https://image.atomy.com/editor/822/2410180015822.jpg"],"officialUrl":"https://www.atomy.com/tw/Home/Product/ProductView?GdsCode=W00975"} },
+        { "name": "芝麻海苔酥", "tag": "零食", "zone": "", "sku": "W90903", "price": 99, "pv": 500, "stock": "in", "desc": "韓國舒川海苔加胡麻油，低溫海鹽調味，全素可食。", "detail": {"intro":"","features":[],"usage":"","notice":"","images":["https://image.atomy.com/editor/143/2411220022143.jpg"],"officialUrl":"https://www.atomy.com/tw/Home/Product/ProductView?GdsCode=W90903"} },
+        { "name": "麥盧卡蜂蜜 MGO830+ 2件組", "tag": "蜂蜜", "zone": "", "sku": "W90920", "price": 4298, "pv": 48000, "stock": "in", "desc": "澳洲原裝、AMHA 認證，MGO830+，沖泡或直接食用。", "detail": {"intro":"","features":[],"usage":"","notice":"","images":[],"officialUrl":"https://www.atomy.com/tw/Home/Product/ProductView?GdsCode=W90920"} },
+        { "name": "艾初米有機白米", "tag": "主食", "zone": "", "sku": "W90955", "price": 188, "pv": 550, "stock": "in", "desc": "台東關山栽種，當季碾製，粒粒飽滿。", "detail": {"intro":"","features":[],"usage":"","notice":"","images":["https://image.atomy.com/editor/822/2410180015822.jpg","https://image.atomy.com/editor/635/2610120165635.jpg"],"officialUrl":"https://www.atomy.com/tw/Home/Product/ProductView?GdsCode=W90955"} },
+        { "name": "天然椰糖 3 包組", "tag": "調味", "zone": "", "sku": "W18620", "price": 450, "pv": 2600, "stock": "in", "desc": "椰花蜜低溫熬製，沖泡烘焙的天然甜味來源。", "detail": {"intro":"","features":[],"usage":"","notice":"","images":["https://image.atomy.com/editor/822/2410180015822.jpg"],"officialUrl":"https://www.atomy.com/tw/Home/Product/ProductView?GdsCode=W18620"} }
       ]
     }
   ]

@@ -48,7 +48,12 @@ content.json       4 島 × 6 產品
 - `content.json` 是唯一內容來源，程式不得寫死產品名稱
 - 島嶼排列不得寫死座標：依 `islands.length` 自動算格線（4 島 2×2、5–6 島 2×3、7–12 島 3×4）
 - 產品數量不設上限：面板必須可滾動，島上對應物件用 `InstancedMesh`，新增分類或產品只改 JSON、不改程式
-- 結構固定：`islands[] → { id, name, no, color, products[] → { name, tag, zone, sku, price, pv, stock, desc } }`
+- 結構固定：`islands[] → { id, name, no, color, products[] → { name, tag, zone, sku, price, pv, stock, desc, detail } }`
+- `detail` 是產品詳細介紹頁的資料，欄位固定為 `{ intro, features, usage, notice, images, officialUrl }`
+- `detail.images` 是官網「產品詳情」區塊的圖片 URL 陣列（可為空陣列，`scripts/fetch-details.mjs` 自動抓）
+- `detail.officialUrl` 是官網商品頁連結，程式自動產生，不要手改
+- `detail.intro` / `usage` / `notice` 為空字串、`features` 為空陣列時，代表尚未填寫；面板遇到空值要整段隱藏，不能顯示空白標題
+- 官網商品頁的「產品詳情」只有圖片，沒有文字成分／用法；要文字必須自行撰寫或 OCR，不可用 AI 憑空生成產品成分
 - `zone` 是分區預留欄位，目前全部空字串；空字串一律視為「未分區」，程式不得因此報錯或隱藏產品
 - `price` 是整數新台幣（不含逗號），`pv` 是整數 PV 點數，`sku` 是官網商品編號
 - `stock` 只有 `"in"` 與 `"out"` 兩種值，缺貨一律用 `"out"`
