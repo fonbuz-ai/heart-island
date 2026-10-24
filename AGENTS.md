@@ -50,8 +50,8 @@ content.json       4 島 × 6 產品
 - 產品數量不設上限：面板必須可滾動，島上對應物件用 `InstancedMesh`，新增分類或產品只改 JSON、不改程式
 - 結構固定：`islands[] → { id, name, no, color, products[] → { name, tag, zone, sku, price, pv, stock, desc, detail } }`
 - `detail` 是產品詳細介紹頁的資料，欄位固定為 `{ intro, features, usage, notice, images, officialUrl }`
-- `detail.images` 是官網「產品詳情」區塊的圖片 URL 陣列（可為空陣列，`scripts/fetch-details.mjs` 自動抓）
-- `detail.officialUrl` 是官網商品頁連結，程式自動產生，不要手改
+- `detail.images` 是官網「產品詳情」區塊的圖片 URL 陣列（目前 24 筆共 115 張，`scripts/fetch-details.mjs` 自動抓）
+- `detail.officialUrl` 是官網商品頁連結，格式固定 `https://tw.atomy.com/product/{sku}`，由腳本自動產生，不要手改
 - `detail.intro` / `usage` / `notice` 為空字串、`features` 為空陣列時，代表尚未填寫；面板遇到空值要整段隱藏，不能顯示空白標題
 - 官網商品頁的「產品詳情」只有圖片，沒有文字成分／用法；要文字必須自行撰寫或 OCR，不可用 AI 憑空生成產品成分
 - `zone` 是分區預留欄位，目前全部空字串；空字串一律視為「未分區」，程式不得因此報錯或隱藏產品
