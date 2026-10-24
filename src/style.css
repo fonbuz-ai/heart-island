@@ -1,0 +1,260 @@
+/* 全螢幕畫布與 HUD */
+
+:root {
+  --cream: #e7d9cd;
+  --ink: #211d1d;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  background: var(--cream);
+  color: var(--ink);
+  font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+}
+
+#scene {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  height: 100dvh;
+  touch-action: none;
+}
+
+#fps {
+  position: fixed;
+  bottom: 12px;
+  left: 12px;
+  padding: 4px 10px;
+  border-radius: 6px;
+  background: rgba(33, 29, 29, 0.75);
+  color: #fff8f4;
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.04em;
+  pointer-events: none;
+  user-select: none;
+}
+
+#back {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  padding: 8px 16px;
+  border: 2px solid var(--ink);
+  border-radius: 999px;
+  background: var(--cream);
+  color: var(--ink);
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#back:hover {
+  background: var(--ink);
+  color: var(--cream);
+}
+
+#back:focus-visible {
+  outline: 3px solid #db6a41;
+  outline-offset: 2px;
+}
+
+/* ⑤ 產品面板：桌機右側、手機底部 */
+
+#panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: 100%;
+  background: #fff8f2;
+  border-left: 1px solid rgba(33, 29, 29, 0.12);
+  box-shadow: -18px 0 44px rgba(33, 29, 29, 0.14);
+  transform: translateX(101%);
+  transition: transform 0.3s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+#panel.open {
+  transform: none;
+}
+
+#panel header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 18px 18px 14px;
+  border-bottom: 3px solid var(--accent, #211d1d);
+}
+
+#panel h2 {
+  margin: 4px 0 0;
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+.island-no {
+  font-size: 12px;
+  letter-spacing: 0.16em;
+  opacity: 0.6;
+}
+
+#panel .close {
+  flex: none;
+  width: 34px;
+  height: 34px;
+  border: 2px solid var(--ink);
+  border-radius: 50%;
+  background: transparent;
+  color: var(--ink);
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+#panel .close:hover {
+  background: var(--ink);
+  color: #fff8f2;
+}
+
+#panel .list {
+  flex: 1;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 16px 18px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.card {
+  position: relative;
+  padding: 14px 16px 12px;
+  border: 1px solid rgba(33, 29, 29, 0.1);
+  border-radius: 14px;
+  background: #fff;
+}
+
+.card h3 {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.card .tag {
+  display: inline-block;
+  margin-top: 6px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: rgba(33, 29, 29, 0.06);
+  font-size: 12px;
+}
+
+.card .price {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.card s {
+  color: rgba(33, 29, 29, 0.5);
+  font-weight: 500;
+}
+
+.card details {
+  margin-top: 10px;
+}
+
+.card summary {
+  padding: 4px 0;
+  font-size: 13px;
+  color: rgba(33, 29, 29, 0.62);
+  cursor: pointer;
+}
+
+.card dl {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 18px;
+  margin: 6px 0 8px;
+  font-size: 13px;
+}
+
+.card dl div {
+  display: flex;
+  gap: 6px;
+}
+
+.card dt {
+  color: rgba(33, 29, 29, 0.55);
+}
+
+.card dd {
+  margin: 0;
+  font-variant-numeric: tabular-nums;
+}
+
+.card p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.7;
+  color: rgba(33, 29, 29, 0.78);
+}
+
+/* 缺貨：整張卡灰階淡化，但仍然可以展開 */
+.card.is-out {
+  filter: grayscale(1);
+  opacity: 0.45;
+}
+
+.sold-out {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: var(--ink);
+  color: #fff8f2;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+}
+
+@media (max-width: 720px) {
+  #panel {
+    top: auto;
+    bottom: 0;
+    left: 0;
+    width: auto;
+    height: 55vh;
+    height: 55dvh;
+    border-left: none;
+    border-top: 1px solid rgba(33, 29, 29, 0.12);
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0 -16px 40px rgba(33, 29, 29, 0.16);
+    transform: translateY(101%);
+  }
+
+  #panel.open {
+    transform: none;
+  }
+
+  #fps {
+    bottom: calc(55dvh + 12px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #panel {
+    transition: none;
+  }
+}
