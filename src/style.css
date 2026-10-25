@@ -211,6 +211,47 @@ body {
   color: rgba(33, 29, 29, 0.78);
 }
 
+/* 官網詳情預覽：只顯示第一張圖的頂部，點了開官網 */
+.card .preview {
+  display: block;
+  position: relative;
+  margin-top: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+  background: rgba(33, 29, 29, 0.06);
+}
+
+/* 長圖只露頂部，用漸層暗示下面還有內容 */
+.card .preview::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 0 0;
+  height: 48px;
+  background: linear-gradient(rgba(255, 255, 255, 0), #fff);
+  pointer-events: none;
+}
+
+.card .preview img {
+  display: block;
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.card .official {
+  display: inline-block;
+  margin-top: 8px;
+  font-size: 13px;
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+}
+
+.card .official:hover {
+  opacity: 0.75;
+}
+
 /* 缺貨：整張卡灰階淡化，但仍然可以展開 */
 .card.is-out {
   filter: grayscale(1);

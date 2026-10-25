@@ -12,6 +12,11 @@ function card(product) {
     ? `<s>${money(product.price)}</s>`
     : money(product.price);
 
+  // 官網詳情是圖片；只放第一張當預覽，其餘連回官網
+  const detail = product.detail ?? {};
+  const preview = detail.images?.[0] ?? "";
+  const official = detail.officialUrl ?? "";
+
   return `
     <article class="card${out ? " is-out" : ""}">
       ${out ? '<span class="sold-out">缺貨</span>' : ""}
@@ -25,6 +30,18 @@ function card(product) {
           <div><dt>商品編號</dt><dd>${product.sku}</dd></div>
         </dl>
         <p>${product.desc}</p>
+        ${
+          preview
+            ? `<a class="preview" href="${official}" target="_blank" rel="noopener">
+                 <img src="${preview}" alt="${product.name} 產品介紹" loading="lazy" />
+               </a>`
+            : ""
+        }
+        ${
+          official
+            ? `<a class="official" href="${official}" target="_blank" rel="noopener">看官網完整介紹 →</a>`
+            : ""
+        }
       </details>
     </article>
   `;
